@@ -8,8 +8,9 @@ initall($('body'),function(){
     $( dpk ).datepicker({
         dateFormat: 'dd/mm/yy',
         yearRange: "1930:",
-        changeYear: true
-        
+        changeYear: true,
+        changeMonth: true,
+        monthNamesShort: ["1","2","3","4","5","6","7","8","9","10","11","12"]
     });
 }
 });
