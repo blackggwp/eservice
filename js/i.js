@@ -6,7 +6,9 @@ initall($('body'),function(){
 
 	function isDatePicker(dpk){
     $( dpk ).datepicker({
-        dateFormat: 'dd/mm/yy'
+        dateFormat: 'dd/mm/yy',
+        yearRange: "1930:",
+        changeYear: true
         
     });
 }
